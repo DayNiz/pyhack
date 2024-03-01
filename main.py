@@ -21,7 +21,7 @@ delay_print("Press F11 for a better experience...")
 input()
 delay_print("Ready?\n3\n2\n1\nHere we go!!")
 
-with open("testusb.c") as f:
+with open("testusb.c.txt") as f:
     clearScreen()
     lines = f.readlines()
     while True:
